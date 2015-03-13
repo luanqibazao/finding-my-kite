@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    background: #eee;
+}
+
+#header {
+    font-family: \534E\6587\96B6\4E66;
+    color: #666;
+    background: #ddd;
+    font-size: 4em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#content {
+    font-family: \6977\4F53, \534E\6587\884C\6977;
+    padding: 60px;
+}
+
+#footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #ddd;
+    padding: 20px;
+}
+
+#article {
+    display: none;
+}
+
+dt {
+    color: #369;
+    cursor: pointer;
+}
+
+dd {
+    margin: 10px 0 60px 60px;
+}
+
