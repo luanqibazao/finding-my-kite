@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>index - Where is my kite</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('dt').click(function () {
+                $('dl').slideUp(300, function() {
+                    $('#article').slideDown(3000);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        寻筝记༼
+    </div>
+    <div id="content">
+        <dl>
+            <dt>哆啦A梦陷进了树枝里</dt>
+            <dd>—— 记一次暴力的取回</dd>
+            <dt>侧记之钥匙上树</dt>
+            <dd>—— 路人的启示</dd>
+            <dt>侧记之偷偷溜出窗口氢气球</dt>
+            <dd>—— 计上心头已来不及</dd>
+            <dt>哆啦A梦又上树了</dt>
+            <dd>—— 第一次脱手的痛</dd>
+        </dl>
+        <div id="article">
+            <dt>哆啦A梦陷进了树枝里</dt>
+            <dd>—— 记一次暴力的取回</dd>
+            <p>blablabla</p>
+        </div>
+    </div>
+    <div id="footer">
+        &copy; 2015
+    </div>
+</div>
+</body>
+</html>
